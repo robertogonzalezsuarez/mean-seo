@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "lodash": "~2.4.x",
-    "redis": "~0.10.x",
-    "phantomjs-bin": "~1.9.x",
-    "mkdirp": "~0.3.x"
+    "mkdirp": "~0.3.x",
+    "phantomjs-bin": "^2.1.1",
+    "redis": "~0.10.x"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --require should --reporter spec"
